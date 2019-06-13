@@ -46,6 +46,8 @@ public class WhiskyTrackerApplicationTests {
 	}
 
 	// Get all the whisky from a particular distillery that's a specific age
-
-
+	@Test
+	public void getAllWhiskeysFromDistilleryOfAge() {
+		List<Whisky> result = whiskyRepository.getAllWhiskeysOfAge("Rosebank",1991);
+	}
 }

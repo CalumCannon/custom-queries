@@ -6,6 +6,6 @@ import java.util.List;
 
 public interface DistilleryRepositoryCustom {
 
-    List<Whisky> getAllWhiskiesFromYear(int year);
+
 
 }

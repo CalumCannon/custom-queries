@@ -55,7 +55,7 @@ public class DataLoader implements ApplicationRunner {
 
 
 
-        List<Whisky> results = whiskyRepository.findWhiskeysByYear(2018);
+        //List<Whisky> results = whiskyRepository.findWhiskeysByYear(2018);
 
      //  List<Whisky> results = distilleryRepository.getAllWhiskiesFromYear(2018);
 

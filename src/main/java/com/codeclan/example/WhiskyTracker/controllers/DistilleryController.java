@@ -15,14 +15,6 @@ import java.util.List;
 @RequestMapping(value = "/distilleries")
 public class DistilleryController {
 
-    @Autowired
-    DistilleryRepository distilleryRepository;
 
-    @GetMapping(value = "/pirates/{name}")
-    public List<Whisky> findWhiskeysFromYear(@PathVariable int year){
-
-        return distilleryRepository.getAllWhiskiesFromYear(year);
-
-    }
 
 }
